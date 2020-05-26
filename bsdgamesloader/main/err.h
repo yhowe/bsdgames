@@ -1,0 +1,2 @@
+#define err(...) {}
+#define errx(...) {}

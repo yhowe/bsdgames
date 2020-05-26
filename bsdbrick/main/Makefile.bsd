@@ -1,0 +1,5 @@
+PROG=	bsdbrick
+SRCS=	main.cpp screen.cpp input.cpp
+LDADD = -lcurses
+NOMAN=	1
+.include <bsd.prog.mk>
