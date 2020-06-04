@@ -473,7 +473,7 @@ main(void)
 			scr_msg(msg, 1);
 			do {
 				usleep(250000);
-			} while (getch() == 0);
+			} while (getch() == 255);
 			scr_msg(msg, 0);
 			scr_msg(key_msg, 1);
 			continue;
